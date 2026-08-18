@@ -21,10 +21,11 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by: VARSHINI K M 
 RegisterNumber:  212225240179
 */
-from sklearn.linear_model import SGDRegressor
-from sklearn.multioutput import MultiOutputRegressor
+
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.linear_model import SGDRegressor
+from sklearn.multioutput import MultiOutputRegressor
 
 X = np.array([
     [1, 2],
@@ -100,7 +101,10 @@ plt.show()
 ```
 
 ## Output:
-<img width="445" height="732" alt="Screenshot 2026-08-18 121653" src="https://github.com/user-attachments/assets/48572098-05bf-4e65-a013-91ec8eabe2b6" />
+<img width="670" height="482" alt="Screenshot 2026-08-18 121932" src="https://github.com/user-attachments/assets/a2a1c99f-58e0-457e-b7db-ea7722e9bf28" />
+<img width="620" height="729" alt="Screenshot 2026-08-18 121959" src="https://github.com/user-attachments/assets/424f5bd4-50f6-4f45-b6fb-d472d43d6724" />
+
+
 
 
 
